@@ -61,6 +61,25 @@
     "title": "Real results of our patients",
     "therapy": "NB-UVB + topical therapy course",
     "repigmentation": "repigmentation",
+    "before": "Before",
+    "after": "After",
+    "comparison": "Before / After",
+    "areas": {
+      "face": "Face",
+      "hands": "Hands",
+      "neck": "Neck and neckline",
+      "back": "Back",
+      "legs": "Legs",
+      "body": "Torso"
+    },
+    "durations": {
+      "threeMonths": "3 months",
+      "sixMonths": "6 months",
+      "nineMonths": "9 months",
+      "twelveMonths": "12 months",
+      "eightMonths": "8 months",
+      "tenMonths": "10 months"
+    },
     "disclaimer": "Results are individual. Published with patients' consent."
   },
   "reviews": {

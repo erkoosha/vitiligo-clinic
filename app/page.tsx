@@ -1,10 +1,10 @@
-import Hero from "@/components/shared/hero/Hero"
-import About from "@/sections/about/About"
-import Certificates from "@/sections/certificates/Certificates"
-import Results from "@/sections/results/Results"
-import Reviews from "@/sections/reviews/Reviews"
-import Contact from "@/sections/contact/Contact"
-import Footer from "@/components/shared/footer/Footer"
+import About from "@/widgets/about"
+import Certificates from "@/widgets/certificates"
+import Contact from "@/widgets/contact"
+import Footer from "@/widgets/footer"
+import Hero from "@/widgets/hero"
+import Results from "@/widgets/results"
+import Reviews from "@/widgets/reviews"
 
 const Page = () => (
   <main>

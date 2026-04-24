@@ -61,6 +61,25 @@
     "title": "Науқастарымыздың нақты нәтижелері",
     "therapy": "NB-UVB + топикалды терапия курсы",
     "repigmentation": "репигментация",
+    "before": "Дейін",
+    "after": "Кейін",
+    "comparison": "Дейін / Кейін",
+    "areas": {
+      "face": "Бет",
+      "hands": "Қолдар",
+      "neck": "Мойын және декольте",
+      "back": "Арқа",
+      "legs": "Аяқтар",
+      "body": "Дене"
+    },
+    "durations": {
+      "threeMonths": "3 ай",
+      "sixMonths": "6 ай",
+      "nineMonths": "9 ай",
+      "twelveMonths": "12 ай",
+      "eightMonths": "8 ай",
+      "tenMonths": "10 ай"
+    },
     "disclaimer": "Нәтижелер жеке болып табылады. Науқастардың келісімімен жарияланады."
   },
   "reviews": {

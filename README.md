@@ -1,38 +1,70 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Vitiligo Clinic
 
-## Getting Started
+Сайт специализированной клиники лечения витилиго в Алматы. Проект построен на Next.js App Router, поддерживает три языка и хранит контент в типизированных моделях.
 
-First, run the development server:
+## Стек
+
+- Next.js 16 App Router
+- React 19
+- TypeScript
+- next-intl
+- Tailwind CSS 4
+- shadcn/radix-ui primitives
+- lucide-react
+
+## Архитектура
+
+Проект организован в облегчённом FSD-стиле:
+
+- `app` — маршруты, layout, глобальные стили.
+- `widgets` — крупные блоки страницы: hero, header, about, certificates, results, reviews, contact, footer.
+- `features` — пользовательские сценарии, сейчас переключение языка.
+- `entities` — доменные модели и статические данные клиники.
+- `shared` — переиспользуемые UI-компоненты, конфиги и утилиты.
+- `messages` — словари `ru`, `kz`, `en`.
+- `public` — статические изображения и сертификаты.
+
+`app` намеренно не используется как свалка компонентов: это помогает держать роутинг отдельно от бизнес-данных и UI.
+
+## Запуск
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Локальный адрес по умолчанию: `http://localhost:3000`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Скрипты
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run dev      # dev-сервер
+npm run build    # production build
+npm run start    # запуск production-сборки
+npm run lint     # ESLint
+```
 
-## Learn More
+## Контент
 
-To learn more about Next.js, take a look at the following resources:
+Основные данные лежат в `entities`:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- `entities/clinic/model` — контакты и график.
+- `entities/doctor/model` — данные врача, достижения, публикации.
+- `entities/certificate/model` — список сертификатов.
+- `entities/treatment-result/model` — результаты лечения.
+- `entities/review/model` — отзывы.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Тексты интерфейса переводятся через `messages/*.json`. При добавлении нового текстового ключа обновляйте все три словаря.
 
-## Deploy on Vercel
+## Next.js 16
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+В проекте есть правило из `AGENTS.md`: перед изменениями API Next.js нужно смотреть локальную документацию в `node_modules/next/dist/docs/`. Это важно, потому что версия Next.js здесь может отличаться от привычных примеров.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# vitiligo-clinic
-# vitiligo-clinic
+## Проверка перед релизом
+
+```bash
+npm run lint
+npm run build
+```
+
+`next/font` во время сборки может скачивать Google Font Rubik. Если окружение без сети, сборка упадёт на загрузке шрифта.

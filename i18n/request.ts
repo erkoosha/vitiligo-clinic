@@ -1,16 +1,12 @@
 import { getRequestConfig } from "next-intl/server"
 import { cookies } from "next/headers"
 
-const LOCALES = ["ru", "kz", "en"] as const
-type Locale = (typeof LOCALES)[number]
-
-const isValidLocale = (locale: string): locale is Locale =>
-  LOCALES.includes(locale as Locale)
+import { DEFAULT_LOCALE, isLocale } from "@/shared/config/i18n"
 
 export default getRequestConfig(async () => {
   const cookieStore = await cookies()
-  const raw = cookieStore.get("NEXT_LOCALE")?.value ?? "ru"
-  const locale: Locale = isValidLocale(raw) ? raw : "ru"
+  const raw = cookieStore.get("NEXT_LOCALE")?.value ?? DEFAULT_LOCALE
+  const locale = isLocale(raw) ? raw : DEFAULT_LOCALE
 
   return {
     locale,

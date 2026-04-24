@@ -61,6 +61,25 @@
     "title": "Реальные результаты наших пациентов",
     "therapy": "Курс NB-UVB + топикальная терапия",
     "repigmentation": "репигментации",
+    "before": "До",
+    "after": "После",
+    "comparison": "До / После",
+    "areas": {
+      "face": "Лицо",
+      "hands": "Руки",
+      "neck": "Шея и декольте",
+      "back": "Спина",
+      "legs": "Ноги",
+      "body": "Туловище"
+    },
+    "durations": {
+      "threeMonths": "3 месяца",
+      "sixMonths": "6 месяцев",
+      "nineMonths": "9 месяцев",
+      "twelveMonths": "12 месяцев",
+      "eightMonths": "8 месяцев",
+      "tenMonths": "10 месяцев"
+    },
     "disclaimer": "Результаты индивидуальны. Публикуются с согласия пациентов."
   },
   "reviews": {
