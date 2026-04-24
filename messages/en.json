@@ -1,0 +1,101 @@
+{
+  "header": {
+    "menuLabel": "Menu",
+    "logo": {
+      "title": "Vitiligo Clinic",
+      "subtitle": "by Dr. A.A. Kasymkhanova"
+    },
+    "nav": {
+      "about": "About",
+      "certificates": "Certificates",
+      "results": "Results",
+      "contacts": "Contacts"
+    }
+  },
+  "hero": {
+    "titleLine1": "Vitiligo treatment",
+    "titleLine2": "you can trust",
+    "subtitle": "A personalized therapy plan with clear steps and careful medical guidance every step of the way.",
+    "cta": "Book Appointment"
+  },
+  "about": {
+    "label": "About",
+    "title": "Vitiligo treatment with care and results",
+    "doctorTitle": "Dermatologist",
+    "description": "Kasymkhanova Aliya Aidarbekouna is a specialist with 38 years of experience in treating vitiligo and skin pigmentation disorders. A pioneer of phototherapy and surgical vitiligo treatment methods in Kazakhstan.",
+    "stats": {
+      "years": "years of experience",
+      "transplants": "successful transplantations",
+      "publications": "publications"
+    },
+    "bioTitle": "About Aliya Aidarbekouna",
+    "milestone2006": "First in Kazakhstan to introduce phototherapy and establish the first Vitiligo Center in Shymkent",
+    "milestone2010": "Defended her PhD thesis on comprehensive vitiligo treatment using narrow-band phototherapy NB UVB 311 nm",
+    "milestone2015": "First in Kazakhstan to introduce surgical treatment methods \u2014 over 180 successful transplantations",
+    "milestone2023": "President of World Vitiligo Day 2023 (VR Foundation, USA)",
+    "patentsTitle": "Kazakhstan Patents",
+    "patent1": "Patent RK \u21162 22737, 12.12.2008 \u2014 \u2018Method of treating patients with vitiligo\u2019",
+    "patent2": "Patent RK \u21162 22581, 06.03.2009 \u2014 \u2018Method of treating vitiligo\u2019",
+    "publicationsTitle": "Publications",
+    "pub1": "Monograph \u2018Methods of Vitiligo Treatment\u2019 (2016)",
+    "pub2": "Chapter in \u2018A Step-by-Step Guide to Diagnosis, Treatment and Prophylaxis\u2019 (2017)",
+    "pub3": "Thesis \u2018New possibilities for prolonging remission with vitiligo\u2019 \u2014 Toronto, 2017",
+    "pub4": "Co-author: Frontiers in Medicine, section Dermatology (2025)",
+    "pub5": "Author of over 50 published scientific works",
+    "awardsTitle": "Awards",
+    "award1": "Medal \u2018For Merit and Achievement\u2019 (2014)",
+    "award2": "Badge \u2018Excellent Healthcare Worker\u2019 (2017)",
+    "award3": "Medal named after Academician M.K. Yegizbayev \u2018For Significant Contribution to Healthcare Development\u2019 (2023)",
+    "membershipsTitle": "Professional Memberships",
+    "mem1": "Kazakhstan Association of Dermatovenereologists",
+    "mem2": "Honorary Member of the Association of Dermatovenereologists and Cosmetologists of the Kyrgyz Republic",
+    "mem3": "Member of the Scientific Advisory Board of the Vitiligo Research Foundation (VR Foundation, USA)",
+    "mem4": "Active participant in international forums in the USA, Canada, Italy, Israel, India, Russia, Uzbekistan and Kyrgyzstan"
+  },
+  "certificates": {
+    "label": "Certificates",
+    "title": "Verified expertise"
+  },
+  "results": {
+    "label": "Results",
+    "title": "Real results of our patients",
+    "therapy": "NB-UVB + topical therapy course",
+    "repigmentation": "repigmentation",
+    "disclaimer": "Results are individual. Published with patients' consent."
+  },
+  "reviews": {
+    "label": "Reviews",
+    "title": "What our patients say",
+    "source": "Reviews from"
+  },
+  "contact": {
+    "label": "Contact",
+    "title": "Book an appointment",
+    "subtitle": "Contact us by phone or via WhatsApp — we respond quickly.",
+    "whatsappCta": "Message on WhatsApp",
+    "phones": "Phone",
+    "whatsapp": "WhatsApp",
+    "address": "Address",
+    "addressText": "Kazakhstan, Almaty, Aitiyeva 46",
+    "instagram": "Instagram",
+    "mapLink": "Open on map"
+  },
+  "footer": {
+    "description": "Specialized vitiligo treatment clinic in Almaty",
+    "schedule": "Working hours",
+    "navigation": "Navigation",
+    "contacts": "Contacts",
+    "copyright": "All rights reserved",
+    "madeBy": "Developed by",
+    "closed": "Day off",
+    "days": {
+      "mon": "Monday",
+      "tue": "Tuesday",
+      "wed": "Wednesday",
+      "thu": "Thursday",
+      "fri": "Friday",
+      "sat": "Saturday",
+      "sun": "Sunday"
+    }
+  }
+}
