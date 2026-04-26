@@ -14,8 +14,8 @@
   },
   "hero": {
     "titleLine1": "Vitiligo treatment",
-    "titleLine2": "you can trust",
-    "subtitle": "A personalized therapy plan with clear steps and careful medical guidance every step of the way.",
+    "titleLine2": "with a focus on long-term remission",
+    "subtitle": "Personalized therapy and thoughtful, gentle patient care.",
     "cta": "Book Appointment"
   },
   "about": {
@@ -24,15 +24,16 @@
     "doctorTitle": "Dermatologist",
     "description": "Kasymkhanova Aliya Aidarbekouna is a specialist with 38 years of experience in treating vitiligo and skin pigmentation disorders. A pioneer of phototherapy and surgical vitiligo treatment methods in Kazakhstan.",
     "stats": {
-      "years": "years of experience",
-      "transplants": "successful transplantations",
-      "publications": "publications"
+      "years": "years of vitiligo treatment experience",
+      "transplants": "years of surgical vitiligo treatment experience",
+      "publications": "Member of the Asian Society for Pigment Cell Research (ASPCR) since 2026"
     },
     "bioTitle": "About Aliya Aidarbekouna",
     "milestone2006": "First in Kazakhstan to introduce phototherapy and establish the first Vitiligo Center in Shymkent",
     "milestone2010": "Defended her PhD thesis on comprehensive vitiligo treatment using narrow-band phototherapy NB UVB 311 nm",
     "milestone2015": "First in Kazakhstan to introduce surgical treatment methods \u2014 over 180 successful transplantations",
     "milestone2023": "President of World Vitiligo Day 2023 (VR Foundation, USA)",
+    "milestone2026": "World Vitiligo Day 2026 at Vitiligo Clinic — first transplantation performed under general anesthesia. A new stage in the development of surgical vitiligo treatment in Kazakhstan.",
     "patentsTitle": "Kazakhstan Patents",
     "patent1": "Patent RK \u21162 22737, 12.12.2008 \u2014 \u2018Method of treating patients with vitiligo\u2019",
     "patent2": "Patent RK \u21162 22581, 06.03.2009 \u2014 \u2018Method of treating vitiligo\u2019",
@@ -58,7 +59,7 @@
   },
   "results": {
     "label": "Results",
-    "title": "Real results of our patients",
+    "title": "Clinical results of our patients",
     "therapy": "NB-UVB + topical therapy course",
     "repigmentation": "repigmentation",
     "before": "Before",

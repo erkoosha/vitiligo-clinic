@@ -5,13 +5,13 @@ type Doctor = {
 
 export const DOCTOR: Doctor = {
   name: "Касымханова Алия Айдарбековна",
-  photo: null,
+  photo: "/Aliya.jpeg",
 }
 
 export const STATS = [
-  { value: "38+", key: "years" as const },
-  { value: "180+", key: "transplants" as const },
-  { value: "50+", key: "publications" as const },
+  { value: "20", key: "years" as const },
+  { value: "10", key: "transplants" as const },
+  { value: "С 2026", key: "publications" as const },
 ] as const
 
 export const MILESTONES = [
@@ -19,6 +19,7 @@ export const MILESTONES = [
   { year: "2010", key: "milestone2010" },
   { year: "2015", key: "milestone2015" },
   { year: "2023", key: "milestone2023" },
+  { year: "2026", key: "milestone2026" },
 ] as const
 
 export const PATENT_KEYS = ["patent1", "patent2"] as const

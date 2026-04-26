@@ -156,15 +156,57 @@ const About = async () => {
         </div>
       </div>
 
-      <div className="bg-violet-600 py-16">
+      <div className="bg-gradient-to-r from-violet-600 to-violet-700 py-20">
         <div className="container mx-auto px-6 md:px-12">
-          <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
-            {MILESTONES.map(({ year, key }) => (
-              <div key={year} className="border-l-2 border-white/30 pl-6">
-                <p className="mb-3 text-4xl font-bold text-white">{year}</p>
-                <p className="text-sm leading-relaxed text-violet-200">
-                  {t(key as Parameters<typeof t>[0])}
-                </p>
+          <h2 className="mb-16 text-center text-3xl font-bold text-white">
+            Ключевые этапы
+          </h2>
+          
+          {/* Desktop timeline */}
+          <div className="hidden md:block">
+            <div className="relative">
+              {/* Timeline line */}
+              <div className="absolute left-0 right-0 top-8 h-1 bg-white/20"></div>
+              
+              {/* Timeline items */}
+              <div className="relative grid grid-cols-4 gap-8">
+                {MILESTONES.map(({ year, key }, index) => (
+                  <div key={year} className="flex flex-col items-center">
+                    {/* Year circle */}
+                    <div className="relative z-10 mb-6 flex h-16 w-16 items-center justify-center rounded-full bg-white text-violet-600 shadow-lg">
+                      <p className="text-xl font-bold">{year}</p>
+                    </div>
+                    {/* Description */}
+                    <div className="rounded-lg bg-white/10 p-4 text-center backdrop-blur-sm">
+                      <p className="text-sm leading-relaxed text-white">
+                        {t(key as Parameters<typeof t>[0])}
+                      </p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+
+          {/* Mobile timeline */}
+          <div className="md:hidden space-y-8">
+            {MILESTONES.map(({ year, key }, index) => (
+              <div key={year} className="flex gap-6">
+                {/* Timeline point and line */}
+                <div className="flex flex-col items-center">
+                  <div className="flex h-12 w-12 items-center justify-center rounded-full bg-white text-violet-600 font-bold shadow-lg">
+                    {year}
+                  </div>
+                  {index < MILESTONES.length - 1 && (
+                    <div className="mt-2 h-12 w-1 bg-white/20"></div>
+                  )}
+                </div>
+                {/* Description */}
+                <div className="flex-1 pt-2">
+                  <p className="text-sm leading-relaxed text-white">
+                    {t(key as Parameters<typeof t>[0])}
+                  </p>
+                </div>
               </div>
             ))}
           </div>
